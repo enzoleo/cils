@@ -4,6 +4,8 @@
 # Object files
 *.o
 *.ko
+*.slo
+*.lo
 *.obj
 *.elf
 
@@ -20,6 +22,7 @@
 *.lib
 *.a
 *.la
+*.lai
 *.lo
 
 # Shared objects (inc. Windows DLLs)
@@ -44,9 +47,17 @@
 
 # Kernel Module Compile Results
 *.mod*
+*.smod
 *.cmd
 .tmp_versions/
 modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Cmake
+build/
+
+# Editors
+*~
+*.emacs*
